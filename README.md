@@ -1,9 +1,9 @@
 # Laravel GeoIP Log Cleaner
 
-[![Latest Stable Version](https://poser.pugx.org/erdemirr/laravel-geoip-log-cleaner/v/stable)](https://packagist.org/packages/erdemirr/laravel-geoip-log-cleaner)
-[![Total Downloads](https://poser.pugx.org/erdemirr/laravel-geoip-log-cleaner/downloads)](https://packagist.org/packages/erdemirr/laravel-geoip-log-cleaner)
-[![Latest Unstable Version](https://poser.pugx.org/erdemirr/laravel-geoip-log-cleaner/v/unstable)](https://packagist.org/packages/erdemirr/laravel-geoip-log-cleaner)
-[![License](https://poser.pugx.org/erdemirr/laravel-geoip-log-cleaner/license)](https://packagist.org/packages/erdemirr/laravel-geoip-log-cleaner)
+[![Latest Stable Version](https://poser.pugx.org/erdaldemirci/laravel-geoip-log-cleaner/v/stable)](https://packagist.org/packages/erdaldemirci/laravel-geoip-log-cleaner)
+[![Total Downloads](https://poser.pugx.org/erdaldemirci/laravel-geoip-log-cleaner/downloads)](https://packagist.org/packages/erdaldemirci/laravel-geoip-log-cleaner)
+[![Latest Unstable Version](https://poser.pugx.org/erdaldemirci/laravel-geoip-log-cleaner/v/unstable)](https://packagist.org/packages/erdaldemirci/laravel-geoip-log-cleaner)
+[![License](https://poser.pugx.org/erdaldemirci/laravel-geoip-log-cleaner/license)](https://packagist.org/packages/erdaldemirci/laravel-geoip-log-cleaner)
 
 # Documentation
 
@@ -17,7 +17,7 @@
 ## Installation
 You can install this package through [Composer](https://getcomposer.org).
 
-- First, edit your project's `composer.json` file to require `erdemirr/laravel-geoip-log-cleaner`:
+- First, edit your project's `composer.json` file to require `erdaldemirci/laravel-geoip-log-cleaner`:
 ```php
 "require": {
     // other require packages
@@ -28,19 +28,19 @@ You can install this package through [Composer](https://getcomposer.org).
 ```shell
 $ composer update
 ```
-> **Note:** Instead of performing the above two steps, you can perform faster with the command line `$ composer require erdemirr/laravel-geoip-log-cleaner:1.*`.
+> **Note:** Instead of performing the above two steps, you can perform faster with the command line `$ composer require erdaldemirci/laravel-geoip-log-cleaner:1.*`.
 - Add following code to app\Console\Kernel.php.
 ```php
 protected $commands = [
     // other kernel commands
-    \Erdemirr\GeoIPLogCleaner\Command\LogClearCommand::class,
+    \ErdalDemirci\GeoIPLogCleaner\Command\LogClearCommand::class,
 ];
 ```
 
 ## Usage
 
 #### Working with facade
-Laravel Log Cleaner has a facade with name is `Erdemirr\GeoIPLogCleaner\Facades\Cleaner`. You can do any operation through this facade. For example:
+Laravel Log Cleaner has a facade with name is `ErdalDemirci\GeoIPLogCleaner\Facades\Cleaner`. You can do any operation through this facade. For example:
 ```php
 <?php
 
@@ -48,7 +48,7 @@ namespace YourNamespace;
 
 // your code
 
-use Erdemirr\GeoIPLogCleaner\Facades\Cleaner;
+use ErdalDemirci\GeoIPLogCleaner\Facades\Cleaner;
 
 class YourClass
 {
@@ -96,7 +96,7 @@ $ php artisan log:clear --help
 ```
 
 ## License
-The Laravel Log Cleaner is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel GeoIP Log Cleaner is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## Thanks for use
 Hopefully, this package is useful to you.
