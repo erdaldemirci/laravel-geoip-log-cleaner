@@ -65,15 +65,15 @@ Some functions of loading, writing, backing up, restoring are implementation and
 $cleaner = Cleaner::rotate(14);
 
 if ($cleaner->clear()) {
-    echo 'Log files older than 14 days in default folder were cleared successfully.';
+    echo 'GeoIP Log files older than 14 days in default folder were cleared successfully.';
 } else {
-    echo 'Log files older than 14 days in default folder were cleared with errors.';
+    echo 'GeoIP Log files older than 14 days in default folder were cleared with errors.';
 }
 
 if ($cleaner->dir('path_to_logs')->clear()) {
-    echo 'Log files older than 14 days in `path_to_logs` folder were cleared successfully.';
+    echo 'GeoIP Log files older than 14 days in `path_to_logs` folder were cleared successfully.';
 } else {
-    echo 'Log files older than 14 days in `path_to_logs` folder were cleared with errors.';
+    echo 'GeoIP Log files older than 14 days in `path_to_logs` folder were cleared with errors.';
 }
 ```
 ```php
@@ -85,7 +85,7 @@ if (Cleaner::dir('path_to_logs')->clear()) {
 ```
 
 #### Working with Artisan CLI
-Laravel Log Cleaner have command can use easily with Artisan CLI. Example:
+Laravel GeoIP Log Cleaner have command can use easily with Artisan CLI. Example:
 ```shell
 $ php artisan log:clear --path=/path/to/log/files --rotate=14
 ```
