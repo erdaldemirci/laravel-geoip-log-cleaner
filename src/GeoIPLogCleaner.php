@@ -1,9 +1,9 @@
 <?php
 
-namespace ErdalDemirci\LogCleaner;
+namespace ErdalDemirci\GeoIPLogCleaner;
 
 use Illuminate\Support\Facades\File;
-use ErdalDemirci\LogCleaner\Facades\Cleaner as Facade;
+use ErdalDemirci\GeoIPLogCleaner\Facades\Cleaner as Facade;
 
 /**
  * Class GeoIPLogCleaner

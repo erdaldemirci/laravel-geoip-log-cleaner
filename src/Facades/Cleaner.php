@@ -1,8 +1,8 @@
 <?php
 
-namespace ErdalDemirci\LogCleaner\Facades;
+namespace ErdalDemirci\GeoIPLogCleaner\Facades;
 
-use ErdalDemirci\LogCleaner\GeoIPLogCleaner as _Cleaner;
+use ErdalDemirci\GeoIPLogCleaner\GeoIPLogCleaner as _Cleaner;
 
 /**
  * Class GeoIPLogCleaner

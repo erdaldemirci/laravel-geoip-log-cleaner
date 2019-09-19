@@ -1,9 +1,9 @@
 <?php
 
-namespace ErdalDemirci\LogCleaner\Command;
+namespace ErdalDemirci\GeoIPLogCleaner\Command;
 
 use Illuminate\Console\Command;
-use ErdalDemirci\LogCleaner\Facades\Cleaner;
+use ErdalDemirci\GeoIPLogCleaner\Facades\Cleaner;
 
 /**
  * Class LogClearCommand
