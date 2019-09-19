@@ -104,7 +104,7 @@ class GeoIPLogCleaner extends Facade
                             $has_errors = true;
                         }
                     }
-                } elseif ($file->getFilename() === 'laravel.log') {
+                } elseif ($file->getFilename() === 'geoip.log') {
                     if (empty($before)) {
                         if (! File::delete($file->getPathname())) {
                             $has_errors = true;
