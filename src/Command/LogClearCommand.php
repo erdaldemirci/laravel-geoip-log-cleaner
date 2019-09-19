@@ -17,7 +17,7 @@ class LogClearCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'log:clear
+    protected $signature = 'geoiplog:clear
                             {--P|path= : Path to log files}
                             {--R|rotate= : Log rotate}';
 

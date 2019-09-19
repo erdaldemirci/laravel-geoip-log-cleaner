@@ -87,12 +87,12 @@ if (Cleaner::dir('path_to_logs')->clear()) {
 #### Working with Artisan CLI
 Laravel GeoIP Log Cleaner have command can use easily with Artisan CLI. Example:
 ```shell
-$ php artisan log:clear --path=/path/to/log/files --rotate=14
+$ php artisan geoiplog:clear --path=/path/to/log/files --rotate=14
 ```
 
 Please use each above command with option --help for details of usage. Example:
 ```shell
-$ php artisan log:clear --help
+$ php artisan geoiplog:clear --help
 ```
 
 ## License
