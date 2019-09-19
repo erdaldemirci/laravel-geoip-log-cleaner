@@ -33,7 +33,7 @@ $ composer update
 ```php
 protected $commands = [
     // other kernel commands
-    \Mifesta\LogCleaner\Command\LogClearCommand::class,
+    \Erdemirr\GeoIPLogCleaner\Command\LogClearCommand::class,
 ];
 ```
 
